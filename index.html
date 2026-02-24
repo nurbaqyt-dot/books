@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">BOOK <span>LIB</span></div>
+      <div class="search-area">
+        <input type="text" id="searchInput" placeholder="Search a book..." />
+        <select id="genreSelect">
+          <option value="">All genres</option>
+          <option value="">FANTASY</option>
+          <option value="">DRAMA</option>
+          <option value="">HORROR</option>
+          <option value="">ROMANCE</option>
+          <option value="">SCIENCE-FICTION</option>
+        </select>
+        <button id="searchBtn">Search</button>
+      </div>
+      <button id="showFavorites" class="fav-btn">Favourites</button>
+    </header>
+    <main class="container">
+      <div class="book-grid" id="resultsGrid"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
